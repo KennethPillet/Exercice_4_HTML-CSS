@@ -1,0 +1,136 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+header{
+    background-color: #222222;
+    display: flex;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+header div nav{
+    float: inline-end;
+}
+header div nav ul li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 15px;
+}
+header div nav ul li a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2{
+    color: #d65745;
+    display: flex;
+    justify-content: center;
+}
+
+/*Premiere partie ou paragraphe*/
+.premier{
+    background-image:url(../images/hero-image.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+.premier button{
+    background-color: #ca5c54;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+.premier div p {
+    margin: 20px;
+    color: white;
+}
+.premier div p:first-child{
+    font-size: 40px;
+}
+.premier div img{
+    display: flex;
+   margin: auto;
+   padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+.premier div p:nth-child(2) {
+    font-weight: 100;
+}
+
+/*Deuxieme partie ou paragraphe*/
+.deuxieme div{
+    padding: 50px 0;
+    text-align: center;
+}
+.deuxieme span{
+    color: #d65745;
+}
+.deuxieme div img{
+    width: 100px;
+    height: 100px;
+}
+.deuxieme hr{
+    border: 1px solid #d65745;
+    width: 110px;
+}
+
+/*Troisieme partie ou paragraphe*/
+.troisieme{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+.troisieme div div{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    justify-items: center;
+    padding: 15px;
+}
+.troisieme div div div{
+    display: inline;
+    text-align: center;
+}
+.troisieme hr{
+    border: 1px solid #d65745;
+    width: 110px;
+}
+.troisieme button{
+    background-color: white;
+    border: 1px solid gray;
+    color: #ca5c54;
+    width: 150px;
+    height: 25px;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.circle{
+    border-radius: 50%;
+    background-color:black;
+    width: 100px;
+    height: 100px;
+}
+.circle i{
+    color: white;
+}
+ /*Bas de page*/
+footer{
+    background-color: #e55947;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+footer div img{
+    width: 200px;
+}
